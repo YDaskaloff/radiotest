@@ -1,0 +1,35 @@
+{
+  "name": "radiotest",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator='iPhone 14'",
+    "start": "react-native start",
+    "reset": "react-native start --reset-cache",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.68.1",
+    "react-native-track-player": "3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^23.4.2",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.73.2",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
